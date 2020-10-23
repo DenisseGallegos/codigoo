@@ -1,0 +1,80 @@
+ *{
+    box-sizing: border-box;
+  }
+  
+
+ 
+   h1 {
+    font-family: cursive; color:#0b0b0c;
+   }
+   .box{
+    width: 100%;
+    overflow: none;
+  }
+  .content-titulo{
+    font-family: cursive;
+    overflow: none;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    float: right;
+    margin-right: 35px;
+    margin-top: 0px;
+    font-weight: bold;
+    position: relative;
+  }
+  
+  .content{
+    width: 90%;
+    height: auto;
+    margin: 2.5%;
+    font-family: cursive; color:#0b0b0c;
+    font-size: 20px;
+    padding: 2%;
+    padding-top: 55px;
+    background-color: #95a5a6;
+  }
+  
+  .titulo1{
+    background-color: rgb(230, 168, 178);
+  }
+  
+  .titulo2{
+    color: white;
+    background-color: rgb(201, 46, 46);
+  }
+  .titulo3{
+    background-color: rgb(209, 209, 37);
+  }
+
+
+  @media (min-width: 992px) {
+    .col-lg-4 {
+        float: left;
+      width: 33.33%;
+    }
+  }
+ @media (min-width: 768px) and (max-width: 991px) {
+    .col-md-6,.col-md-12 {
+        float: left;
+      }
+      .col-md-6 {
+        width: 50%;
+      }
+      .col-md-12 {
+        margin-left: -10px;
+        width: 100%;
+      }
+    .name3{
+      margin-right: 65px;
+      width: 100px;
+    }
+  }
+   @media (min-width: 0px) and (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+      width: 100%;
+    }
+    
+  }
